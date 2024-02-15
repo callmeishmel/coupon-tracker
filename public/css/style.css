@@ -1,0 +1,63 @@
+
+/* Overrides */
+.navbar-brand {padding: 0;}
+.navbar-brand img {height: 50px;}
+.btn {padding: 4px 8px;}
+
+@media (min-width: 1200px) {
+  .container {
+      width: 90%;
+  }
+}
+
+.btn-warning {
+  background-color: #f59447;
+  border-color: #d18d56;
+}
+
+.btn-warning:hover,
+.btn-warning:active,
+.btn-warning:focus {
+  background-color: #e5863b;
+}
+
+.btn-warning:active:focus,
+.btn-warning:active:hover {
+  background-color: #ff9320;
+}
+
+.breadcrumb {
+    padding: 0;
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+
+/* New Elements */
+
+.wm-btn-sml {
+  font-size: 10px;
+  padding: 0px 5px;
+}
+
+.wm-no-margin {
+  margin: 0;
+}
+
+.wm-bold {
+  font-weight: bold;
+  color: #f59447;
+}
+
+.small-print {
+  font-weight: bold;
+  font-style: italic;
+  color: #f59447;
+  font-size: 12px;
+}
+
+.box-content-msg {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(0,0,0,.2);
+}
